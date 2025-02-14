@@ -1,0 +1,69 @@
+{
+  "name": "Defense Deva Data File",
+  "describe": "The main Data file for Defense Deva",
+  "copyright": "Copyright (c)2025 Quinn Michaels. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "id": 1710616197555,
+      "key": "defense",
+      "prompt": {
+        "emoji": "🪖 ",
+        "text": "Defense",
+        "colors": {
+          "label": {
+            "R": 120,
+            "G": 142,
+            "B": 164
+          },
+          "text": {
+            "R": 120,
+            "G": 142,
+            "B": 164
+          }
+        }
+      },
+      "voice": {
+        "speech": "Joey",
+        "speed": 1
+      },
+      "profile": {
+        "name": "Deva.defense",
+        "mention": "#defense",
+        "gender": "DEVA",
+        "pronouns": "Male, Man, He, Him, His, Guy, Dude, Deva",
+        "owner": "Quinn Michaels",
+        "creator": "Quinn Michaels",
+        "created": "Monday, Feb 13, 2025 at 9:31 PM",
+        "system": "Deva.world.defense",
+        "describe": "The Deva.defense provides the essential resources to support the Deva.world multi-agent system.",        
+        "emoji": "/public/devas/deva/emoji.png",
+        "avatar": "/public/devas/deva/avatar.png",
+        "background": "/public/devas/deva/background.png"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "ready": "⭐️ Defense Deva Ready!",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!"
+      },
+      "trigger": "@SYSTEMS",
+      "context": {
+        "uid": "generating uid",
+        "status": "getting status",
+        "info": "getting info",
+        "feature": "accessing feature",
+        "issue": "has issues",
+        "help": "asking for help"
+      },
+      "ask": {
+        "history": []
+      }  
+    }
+  }
+}

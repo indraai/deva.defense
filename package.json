@@ -1,0 +1,33 @@
+{
+  "id": 1710616197555,
+  "name": "@indra.ai/deva.defense",
+  "version": "0.0.0",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2025",
+  "description": "The Defense Deva handles all the various defense in Deva.world.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.defense.git"
+  },
+  "keywords": [
+    "Defense",
+    "Deva",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.defense/issues"
+  },
+  "homepage": "https://deva.space/devas/defense",
+  "devDependencies": {
+    "@indra.ai/deva": "^1.4.2"
+  }
+}
