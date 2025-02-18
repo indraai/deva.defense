@@ -22,20 +22,16 @@
           }
         }
       },
-      "voice": {
-        "speech": "Joey",
-        "speed": 1
-      },
       "profile": {
-        "name": "Deva.defense",
+        "name": "Defense Deva",
         "mention": "#defense",
         "gender": "DEVA",
-        "pronouns": "Male, Man, He, Him, His, Guy, Dude, Deva",
+        "pronouns": "He, Him, His",
         "owner": "Quinn Michaels",
         "creator": "Quinn Michaels",
         "created": "Monday, Feb 13, 2025 at 9:31 PM",
         "system": "Deva.world.defense",
-        "describe": "The Deva.defense provides the essential resources to support the Deva.world multi-agent system.",        
+        "describe": "The Defense Deva provides the essential resources to support the Deva.world multi-agent system.",
         "emoji": "/public/devas/deva/emoji.png",
         "avatar": "/public/devas/deva/avatar.png",
         "background": "/public/devas/deva/background.png"
