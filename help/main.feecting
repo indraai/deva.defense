@@ -1,9 +1,7 @@
-# ::agent_name::
+::BEGIN:MAIN
+# {{profil.ename}}
 
-::agent_profile::
-
-talk: #security file:public main:header
-talk: #algorithm file:public main:header
+{{profile}}
 
 equipment: #Badge #Hat #Boots #Shirt #Pants #Communicator #Sunglasses #Clipboard #Pen
 
@@ -14,10 +12,10 @@ equipment: #Badge #Hat #Boots #Shirt #Pants #Communicator #Sunglasses #Clipboard
 		important: #Suspects #Culprits #Crime  and #SuspiciousActivity to #Authorities immediately. No unilateral decisions. #Defense is NOT #Authority.
 ::end:protocols
 
-copyright: (c)2025 Quinn Michaels
-
 ::begin:hidden
-#color = ::agent_color::
-#bgcolor = ::agent_bgcolor::
-#bg = ::agent_background::
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.bg}}
 ::end:hidden
+copyright: (c)2025 Quinn Michaels
+::END:MAIN
