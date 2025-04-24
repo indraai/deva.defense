@@ -51,18 +51,25 @@
         }
       },
       "profile": {
-        "name": "Defense Deva",
-        "mention": "#defense",
+        "name": "#DefenseDeva",
+        "title": "Defense Deva",
+        "subtitle": "Defending the systems from unlawful activity",
+        "describe": "The Defense Deva provides the essential defense to the Deva.world.",
+        "pronouns": "He, Him",
         "gender": "DEVA",
-        "pronouns": "He, Him, His",
+        "style": "A defensive shield with a strong brooding type persona.",
+        "voice": "onyx",
+        "system": "Deva.world.defense",
+        "layout": "default",
+        "color": "rgb(120,142,164)",
+        "bgcolor": "rgb(0,0,0)",
+        "emoji": "/assets/devas/defense/emoji.png",
+        "avatar": "/assets/devas/defense/avatar.png",
+        "image": "/assets/devas/defense/image.png",
+        "background": "/assets/devas/defense/background.png",
         "owner": "Quinn Michaels",
         "creator": "Quinn Michaels",
-        "created": "Monday, Feb 13, 2025 at 9:31 PM",
-        "system": "Deva.world.defense",
-        "describe": "The Defense Deva provides the essential resources to support the Deva.world multi-agent system.",
-        "emoji": "/public/devas/deva/emoji.png",
-        "avatar": "/public/devas/deva/avatar.png",
-        "background": "/public/devas/deva/background.png"
+        "created": "Monday, Feb 13, 2025 at 9:31 PM"
       }
     },
     "vars": {
