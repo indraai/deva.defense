@@ -1,8 +1,8 @@
 export default {
   /**************
-  method: defense
+  method: Defense
   params: packet
-  describe: The global defense feature that installs with every agent
+  describe: The global service feature that installs with every agent
   ***************/
   defense(packet) {
     this.context('feature');
@@ -11,11 +11,13 @@ export default {
       const agent = this.agent();
       const global = [];
       defense.global.forEach((item,index) => {
-        global.push(`::begin:global:${item.key}:${item.id}`);
+        global.push(`::begin:${item.key}:${item.id}`);
         for (let x in item) {
           global.push(`${x}: ${item[x]}`);
         }
-        global.push(`::end:global:${item.key}:${this.lib.hash(item)}`);
+        const thehash = this.lib.hash(item);
+        global.push(`hash: ${thehash}`);
+        global.push(`::end:${item.key}:${thehash}`);
       });
       const concerns = [];
       defense.concerns.forEach((item, index) => {
@@ -24,16 +26,20 @@ export default {
       
       const info = [
         '::BEGIN:DEFENSE',
-        '### Client',
-        `::begin:client:${defense.client_id}`,
+        `::begin:client`,
+        '## Client',
         `id: ${defense.client_id}`,
         `client: ${defense.client_name}`,
-        '**concerns**',
-        concerns.join('\n'),
-        `::end:client:${this.lib.hash(defense)}`,
-        '### Global',
+        `::end:client}`,
+        concerns.length ? `::begin:concerns` : '',
+        concerns.length ? '## Concerns' : '',
+        concerns.length ? concerns.join('\n') : '',
+        concerns.length ? `::end:concerns` : '',
+        '::begin:global',
+        '## Global',
         global.join('\n'),
-        '::END:DEFENSE'
+        '::end:global',
+        '::END:DEFENSE',
       ].join('\n');
       this.question(`${this.askChr}feecting parse ${info}`).then(feecting => {
         return resolve({
