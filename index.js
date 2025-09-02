@@ -35,10 +35,10 @@ const DEFENSE = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      const echo = this.methods.echo('guard', 'q', packet);
+      const echo = this.methods.echo('defense', 'q', packet);
     },
     'devacore:answer'(packet) {
-      const echo = this.methods.echo('guard', 'a', packet);
+      const echo = this.methods.echo('defense', 'a', packet);
     }    
   },
   modules: {},
