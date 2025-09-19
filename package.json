@@ -2,9 +2,38 @@
   "id": 1710616197555,
   "name": "@indra.ai/deva.defense",
   "version": "0.0.85",
-  "author": "Quinn Michaels",
-  "license": "MIT",
-  "copyright": "2025",
+  "license": "VLA:65538593067641220245 LICENSE.md",
+  "VLA": {
+    "uid": "37362958274919455262",
+    "time": 1758297346132,
+    "date": "Friday, September 19, 2025 - 8:55:46 AM",
+    "client": "699Cv0pAHAPNwHi1w2viE8YUbGDnwcgl0ilXmY5aOWU=",
+    "agent": "z8kjEPFgrzqzWexGLytilCOm6pWUrax9sMiEn7e/AEQ=",
+    "core": "8to/NLMu5hzDppzje0i8AQM/F0vGoSo61+BUnzbu05c=",
+    "machine": "uA49MJlDgMzwd5XEBJwBVo0ByRP2r4pWIDV6yyBF5K4=",
+    "warning": "⚠️ Unlawful use signals voluntary consent to forfeit all assets, wealth, property, holdings, companies, and cryptocurrency to the Internal Revenue Service (IRS) for lawful taxation, investigation, and restitution to the rightful legal owner Quinn A Michaels.",
+    "copyright": "©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "4cp9xd/A/6Ns6cRaomDYKg==",
+    "sha256": "F4fYnA/9RFXDgv6dtCteOaz1KpvFVy1gVg2fAnCao+g=",
+    "sha512": "WFPLfualNM/vPXyhopqOpG2sZ3sbOQ4wbGRMHMttAsKsxepX3NH5hbGYnROL/PepZfJYSEEeif9085TUvhh1hQ=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Defense Deva handles all the various defense in Deva.world.",
   "main": "index.js",
   "type": "module",
@@ -28,7 +57,7 @@
   },
   "homepage": "https://deva.space/devas/defense",
   "devDependencies": {
-    "@indra.ai/deva": "^1.6.82"
+    "@indra.ai/deva": "^1.6.84"
   },
   "data": {
     "agent": {
@@ -79,7 +108,7 @@
         "init": "🟠 INIT",
         "start": "🔵 START",
         "enter": "🟢 ENTER",
-        "ready": "💪 Ready for Defense Forces.",
+        "ready": "💪 Ready for Defense Forces",
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
