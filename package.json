@@ -57,7 +57,7 @@
   },
   "homepage": "https://deva.space/devas/defense",
   "devDependencies": {
-    "@indra.ai/deva": "^1.6.88"
+    "@indra.ai/deva": "^1.6.89"
   },
   "data": {
     "agent": {
