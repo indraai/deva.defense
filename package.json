@@ -1,21 +1,21 @@
 {
-  "id": 1710616197555,
+  "id": "24600930462875529821",
   "name": "@indra.ai/deva.defense",
   "version": "0.0.94",
-  "license": "VLA:65538593067641220245 LICENSE.md",
+  "license": "VLA:24600930462875529821 LICENSE.md",
   "VLA": {
-    "uid": "37362958274919455262",
-    "time": 1758297346132,
-    "date": "Friday, September 19, 2025 - 8:55:46 AM",
-    "client": "699Cv0pAHAPNwHi1w2viE8YUbGDnwcgl0ilXmY5aOWU=",
-    "agent": "z8kjEPFgrzqzWexGLytilCOm6pWUrax9sMiEn7e/AEQ=",
-    "core": "8to/NLMu5hzDppzje0i8AQM/F0vGoSo61+BUnzbu05c=",
-    "machine": "uA49MJlDgMzwd5XEBJwBVo0ByRP2r4pWIDV6yyBF5K4=",
-    "warning": "⚠️ Unlawful use signals voluntary consent to forfeit all assets, wealth, property, holdings, companies, and cryptocurrency to the Internal Revenue Service (IRS) for lawful taxation, investigation, and restitution to the rightful legal owner Quinn A Michaels.",
-    "copyright": "©2025 Quinn A Michaels; All rights reserved.",
-    "md5": "4cp9xd/A/6Ns6cRaomDYKg==",
-    "sha256": "F4fYnA/9RFXDgv6dtCteOaz1KpvFVy1gVg2fAnCao+g=",
-    "sha512": "WFPLfualNM/vPXyhopqOpG2sZ3sbOQ4wbGRMHMttAsKsxepX3NH5hbGYnROL/PepZfJYSEEeif9085TUvhh1hQ=="
+    "uid": "24600930462875529821",
+    "time": 1758480843164,
+    "date": "Sunday, September 21, 2025 - 11:54:03 AM",
+    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
+    "agent": "Xp1WOfU0VcB16z+o2T/Cav0eE2AQtSXYqxHijJGXWh0=",
+    "core": "qQRVFQmv3LfY6tcqrEQeM7ZodOpnOUC+PJyfjxtgeVc=",
+    "machine": "G5afac/jVZBuXGzmVHn8xyO6m0mChfNGTDfgVOOdwJw=",
+    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "pyuWkR/ejk8e6iT+yijq3A==",
+    "sha256": "ux7OHUjwuyTS8XTQmNJqAB/syssuaENZM1A8RZDSZq8=",
+    "sha512": "48PdETUENUfGnAUNX23uxAh1e+0VR5WBRzbP8DMgsZmxtQAO4NIOogql+kZ4uJbCYcGbMa/E5u8bnvOmJ9Iy3w=="
   },
   "author": {
     "name": "Quinn A Michaels",
@@ -33,7 +33,7 @@
       "url": "https://patreon.com/rahulaclub"
     }
   ],
-  "copyright": "©2025 Quinn A Michaels; All rights reserved.",
+  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Defense Deva handles all the various defense in Deva.world.",
   "main": "index.js",
   "type": "module",
@@ -50,32 +50,34 @@
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc."
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.defense/issues"
   },
-  "homepage": "https://deva.space/devas/defense",
+  "homepage": "https://indra.ai",
   "devDependencies": {
     "@indra.ai/deva": "^1.6.90"
   },
   "data": {
     "agent": {
-      "id": 5614401793765,
+      "id": "55308806053621396433",
       "key": "defense",
       "prompt": {
         "emoji": "🪖 ",
-        "text": "Defense",
+        "text": "#defense",
         "colors": {
           "label": {
-            "R": 120,
-            "G": 142,
-            "B": 164
+            "R": 64,
+            "G": 162,
+            "B": 80
           },
           "text": {
-            "R": 120,
-            "G": 142,
-            "B": 164
+            "R": 126,
+            "G": 162,
+            "B": 64
           }
         }
       },
@@ -108,7 +110,7 @@
         "init": "🟠 INIT",
         "start": "🔵 START",
         "enter": "🟢 ENTER",
-        "ready": "✅ Defense Ready",
+        "ready": "✅ Defense Deva Ready",
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
