@@ -38,14 +38,7 @@ const DEFENSE = new Deva({
     parse(input) {return input.trim();},
     process(input) {return input.trim();},
   },
-  listeners: {
-    'devacore:question'(packet) {
-      const echo = this.methods.echo('defense', 'q', packet);
-    },
-    'devacore:answer'(packet) {
-      const echo = this.methods.echo('defense', 'a', packet);
-    }    
-  },
+  listeners: {},
   modules: {},
   deva: {},
   func: {},
