@@ -52,14 +52,16 @@
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
-    "Inside The Net, Inc."
+    "Inside The Net, Inc.",
+    "Throwing Pigment",
+    "bleuBrain"
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.defense/issues"
   },
   "homepage": "https://indra.ai",
   "devDependencies": {
-    "@indra.ai/deva": "^1.16.2"
+    "@indra.ai/deva": "^1.17.0"
   },
   "data": {
     "agent": {
@@ -95,14 +97,15 @@
         "layout": "default",
         "color": "rgb(120,142,164)",
         "bgcolor": "rgb(0,0,0)",
-        "emoji": "/assets/devas/defense/emoji.png",
-        "avatar": "/assets/devas/defense/avatar.png",
-        "image": "/assets/devas/defense/image.png",
-        "background": "/assets/devas/defense/background.png",
-        "owner": "Quinn Michaels",
-        "creator": "Quinn Michaels",
-        "created": "Monday, Feb 13, 2025 at 9:31 PM",
-        "updated": "Tuesday, April 29, 2025 - 11:57:21 PM"
+        "emoji": "/devas/defense/emoji.png",
+        "avatar": "/devas/defense/avatar.png",
+        "image": "/devas/defense/image.png",
+        "background": "/devas/defense/background.png",
+        "owner": "Quinn A Michaels",
+        "creator": "Quinn A Michaels",
+        "uid_warning": "Those who do not come to offer assistance, when people are crying out for help within their hearing, or when property is being taken away, are likewise accomplices in the crime.",
+        "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+        "created": "Monday, Feb 13, 2025 at 9:31 PM"
       }
     },
     "vars": {
