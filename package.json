@@ -61,7 +61,7 @@
   },
   "homepage": "https://indra.ai",
   "devDependencies": {
-    "@indra.ai/deva": "^1.21.1"
+    "@indra.ai/deva": "^1.22.0"
   },
   "data": {
     "agent": {
@@ -93,7 +93,7 @@
         "gender": "DEVA",
         "style": "A defensive shield with a strong brooding type persona.",
         "voice": "onyx",
-        "system": "Deva.world.defense",
+        "system": "Indra.ai.defense",
         "layout": "default",
         "color": "rgb(120,142,164)",
         "bgcolor": "rgb(0,0,0)",
@@ -103,7 +103,7 @@
         "background": "/devas/defense/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
-        "uid_warning": "Those who do not come to offer assistance, when people are crying out for help within their hearing, or when property is being taken away, are likewise accomplices in the crime.",
+        "warning": "⚠️ Those who do not come to offer assistance, when people are crying out for help within their hearing, or when property is being taken away, are likewise accomplices in the crime.",
         "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
         "created": "Monday, Feb 13, 2025 at 9:31 PM"
       }
