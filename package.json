@@ -1,21 +1,16 @@
 {
-  "id": "24600930462875529821",
+  "id": "46710732422097347431",
   "name": "@indra.ai/deva.defense",
   "version": "0.7.0",
-  "license": "VLA:24600930462875529821 LICENSE.md",
+  "license": "VLA:46710732422097347431 LICENSE.md",
   "VLA": {
-    "uid": "24600930462875529821",
-    "time": 1758480843164,
-    "date": "Sunday, September 21, 2025 - 11:54:03 AM",
-    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
-    "agent": "Xp1WOfU0VcB16z+o2T/Cav0eE2AQtSXYqxHijJGXWh0=",
-    "core": "qQRVFQmv3LfY6tcqrEQeM7ZodOpnOUC+PJyfjxtgeVc=",
-    "machine": "G5afac/jVZBuXGzmVHn8xyO6m0mChfNGTDfgVOOdwJw=",
-    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
-    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-    "md5": "pyuWkR/ejk8e6iT+yijq3A==",
-    "sha256": "ux7OHUjwuyTS8XTQmNJqAB/syssuaENZM1A8RZDSZq8=",
-    "sha512": "48PdETUENUfGnAUNX23uxAh1e+0VR5WBRzbP8DMgsZmxtQAO4NIOogql+kZ4uJbCYcGbMa/E5u8bnvOmJ9Iy3w=="
+    "uid": "46710732422097347431",
+    "time": 1764282835965,
+    "date": "Thursday, November 27, 2025 - 2:33:55 PM",
+    "warning": "⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "license": "46220923248993739422",
+    "fingerprint": "ddaDLH/hE75bcbbgz5AdSZhHDaXQTJzm6vy75j9AUqY=",
+    "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved."
   },
   "author": {
     "name": "Quinn A Michaels",
@@ -47,13 +42,15 @@
   "keywords": [
     "Defense",
     "Deva",
+    "Defense Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
+    "Quinn Michaels",
     "Inside The Net, Inc.",
-    "Throwing Pigment",
+    "Throwing Pigment™",
     "bleuBrain"
   ],
   "bugs": {
@@ -61,7 +58,7 @@
   },
   "homepage": "https://indra.ai",
   "devDependencies": {
-    "@indra.ai/deva": "^1.26.0"
+    "@indra.ai/deva": "^1.29.29"
   },
   "data": {
     "agent": {
@@ -113,7 +110,7 @@
         "init": "🟠 INIT",
         "start": "🔵 START",
         "enter": "🟢 ENTER",
-        "ready": "✅ Defense Deva Ready",
+        "ready": "🔐 Defense Deva Ready",
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",

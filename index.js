@@ -1,9 +1,10 @@
 "use strict";
 // Copyright ©2025 Quinn A Michaels; All rights reserved.  
 // Legal Signature Required For Lawful Use.  
-// Distributed under VLA:24600930462875529821 LICENSE.md
+// Distributed under VLA:46710732422097347431 LICENSE.md
+// Thursday, November 27, 2025 - 2:33:55 PM
 
-// The Defense Deva manages the various @DEFENSE in deva.world
+// The Defense Deva
 
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
@@ -29,7 +30,7 @@ const info = {
   copyright: pkg.copyright,
 };
 
-const DEFENSE = new Deva({
+const DefenseDeva = new Deva({
   info,
   agent,
   vars,
@@ -40,7 +41,6 @@ const DEFENSE = new Deva({
   },
   listeners: {},
   modules: {},
-  deva: {},
   func: {},
   methods: {},
   onInit(data, resolve) {
@@ -53,6 +53,7 @@ const DEFENSE = new Deva({
   onReady(data, resolve) {
     const {VLA} = this.info();
     this.prompt(`${this.vars.messages.ready} > VLA:${VLA.uid}`);
+    this.action('resolve', `onReady:${data.id.uid}`);
     return resolve(data);
   },
   onError(err, data, reject) {
@@ -61,4 +62,4 @@ const DEFENSE = new Deva({
     return reject(err);
   },
 });
-export default DEFENSE
+export default DefenseDeva
