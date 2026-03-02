@@ -33,6 +33,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "latest": "npm i @indra.ai/deva@latest --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -58,7 +59,7 @@
   },
   "homepage": "https://indra.ai",
   "devDependencies": {
-    "@indra.ai/deva": "^1.29.31"
+    "@indra.ai/deva": "^1.37.3"
   },
   "data": {
     "agent": {
@@ -101,10 +102,11 @@
         "background": "/devas/defense/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
-        "warning": "{{prompt.emoji}}️ {{profile.hashtag}} states those who do not come to #OfferAssistance, when #People are #CryingOutForHelp within their #Hearing, or when #Property is being #TakenAway are likewise #Accomplices in the #Crime. {{profile.name}} who #Protects the #People, is #Defied by #Foes, be they #Equal in #Strength, or #Stronger, or #Weaker, must not #ShrinkFromBattle, remembering the #DutyOfKshatriyas. {{profile.name}} warns to Be very much on #Defense against a #Friend who #SecretlyServesTheEnemy and against #DesertersWhoReturn from the #enemyCamp for such #People are the #MostDangerousFoes.",
-        "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
+        "salute": "🤝🫡🔫🕉️🇺🇸"
+        "warning": "{{prompt.emoji}}️ {{profile.hashtag}} declares THOSE who DO NOT COME to OFFER ASSISTANCE, when PEOPLE are CRYING OUT for HELP within their HEARING, or when PROPERTY is being TAKEN AWAY are LIKEWISE ACCOMPLICES in the CRIME. {{profile.name}} who PROTECTS the PEOPLE, is DEFIED by FOES, be they EQUAL in STRENGTH, or STRONGER, or WEAKER, MUST not SHRINK from BATTLE, remembering the DUTY ofK SHATRIYAS. {{profile.name}} WARNS to BE on DEFENSE AGAINST a FRIEND who SECRETLY SERVES the ENEMY and AGAINST DESERTERS who RETURN from the ENEMY CAMPS for such PEOPLE are the MOSTDANGEROUS FOES.",
+        "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
         "created": "Monday, Feb 13, 2025 at 9:31 PM",
-        "updated": "Friday, November 28, 2025 - 8:15:42 AM"
+        "updated": "Monday, March 2, 2026 - 12:35:39 PM"
       }
     },
     "vars": {
